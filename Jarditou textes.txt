@@ -1,0 +1,15 @@
+﻿Section 1 : 
+
+ Article 1 : L'entreprise
+  paragraphe 1 : Notre entreprise familiale met tout son savoir-faire à votre disposition dans le domaine du jardin et du paysagisme.
+  paragraphe 2 : Créée il y a 70 ans, notre entreprise vend fleurs, arbustes, matériel à main et motorisés.
+  paragraphe 3 : Implantés à Amiens, nous intervenons dans tout le département de la Somme : Albert, Doullens, Péronne, Abbeville, Corbie			
+		
+Section 2 :
+ Article 1 : Qualité
+  paragraphe 1 : Nous mettons à votre disposition un service personnalisé, avec 1 seul interlocuteur durant tout votre projet.
+  paragraphe 2 : Vous serez séduit par notre expertise, nos compétences et notre sérieux.
+	
+ Article 2 : Devis gratuit
+  paragraphe 1 : Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande d’intervention. Vous souhaitez un devis ? Nous vous le réalisons gratuitement.
+	    
