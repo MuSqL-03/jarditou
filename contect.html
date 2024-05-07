@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,10 +6,15 @@
     <meta name="viewport" content="width=300px, initial-scale=1.0">
     <title>CONTECT</title>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    <img src="jarditou_logo.jpg"  alt="jarditou_logo" width="1600" height="300">
-    <b><p>La qualité dpuis 70 ans</p></b>
+</head>
+
+<body>
+    <img src="jarditou_logo.jpg" alt="jarditou_logo" width="100%" height="300">
+    <hr>
+    <b>
+        <p style="text-align: center; color: rgb(71, 209, 17); font-size: xx-large;">La qualité dpuis 70 ans</p>
+    </b>
+    <hr>
 
     <nav>
         <ul>
@@ -19,14 +23,17 @@
             <li><a href="#CONTECT">CONTECT</a></li>
         </ul>
     </nav>
-    <img src="promotion.jpg" alt="promotion_img"   width="1900" height="300">
-    <h4 id="CONTECT">CONTECT</h4>
+    <img src="promotion.jpg" alt="promotion_img" width="100%" height="400">
+    <h5 id="CONTECT">CONTECT</h5>
     <hr>
-    <p>* Ces zones sont obligatoires </p>
+    <b>
+        <p style="text-align: center; color: yellow; font-size: xx-large;">* Ces zones sont obligatoires </p>
+    </b>
+    <hr>
 
     <form>
         <fieldset>
-            <legend> Vos coordonnées </legend>
+            <legend style="text-align: center; color: yellow; font-size: xx-large;"> Vos coordonnées </legend>
             <label for="nom">Votre Nom:</label>
             <input type="text" name="nom" id="nom">
             <br>
@@ -40,11 +47,11 @@
             <br>
 
             <label for="date">Date de naissance:</label>
-            <input type="date" name="ddn" id="date"> 
+            <input type="date" name="ddn" id="date">
             <br>
 
             <label id="number">Code postal*:</label>
-            <input type="number" name="code postal"> 
+            <input type="number" name="code postal">
             <br>
 
             <label id="Adresse">Address*:</label>
@@ -54,30 +61,31 @@
             <label id="Ville">Ville*:</label>
             <input type="text" name="ville" id="ville">
             <br>
-            
+
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" placeholder="musadaq@gmail.com">
+            <input type="text" name="email" id="email" placeholder="musadaq@gmail.com" style="color: black;">
             <br>
         </fieldset>
 
         <fieldset>
-            <legend>Votre Demande</legend>
+            <legend style="text-align: center; color: yellow; font-size: xx-large;">Votre Demande</legend>
             <label id="subej">Sujet*:</label>
             <select id="sujet">
-                <option value="select" label= " Veuillez séléctionner un sujet">
-                        Veuillez séléctionner un sujet 
+                <option value="select" label=" Veuillez séléctionner un sujet">
+                    Veuillez séléctionner un sujet
                 </option>
-                
+
             </select>
             <br>
             <label>Votre Question:</label>
-            <textarea  name="votre Question" rows="4" cols="50"></textarea>
+            <textarea name="votre Question" rows="4" cols="50"></textarea>
         </fieldset> <br>
-    </form>
 
-    <input type="checkbox" name="Couleur" value="J'accepte le traitement informatique de ce formulaire">*J'accepte le
-    traitement informatique de ce formulaire <br>
-    <br>
+
+        <input type="checkbox" name="Couleur" value="J'accepte le traitement informatique de ce formulaire">
+        *J'accepte le traitement informatique de ce formulaire <br>
+        <br>
+    </form>
     <button class="envoyer">Evoyer</button>
     <button class="Annuler">Annuler</button>
 
